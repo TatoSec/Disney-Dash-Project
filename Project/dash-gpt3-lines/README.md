@@ -1,4 +1,4 @@
-# Dash GPT-3 Line Charts Updater
+# Dash GPT-3 Line Chart
 
 ![demo](images/demo.gif)
 
