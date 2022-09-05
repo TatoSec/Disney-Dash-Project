@@ -56,7 +56,7 @@ chat_input = dbc.InputGroup(
     ]
 )
 output_graph = [
-    dbc.CardHeader("Disney Data Graph [Domestic Only]"),
+    dbc.CardHeader("Top Grossing Disney Movie [Domestic]"),
     dbc.CardBody(dbc.Spinner(dcc.Graph(id="output-graph", style={"height": "500px"}))),
 ]
 output_code = [
@@ -85,7 +85,7 @@ right_col = [dbc.Card(output_code), html.Br(), chat_input]
 
 app.layout = dbc.Container(
     [
-        Header("Top Grossing Disney Movie", app),
+        Header(" Disney Movie Data", app),
         html.Hr(),
         dbc.Row([dbc.Col(left_col, md=7), dbc.Col(right_col, md=5)]),
     ],
