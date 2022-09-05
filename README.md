@@ -1,6 +1,6 @@
 # Disney Movie Grossing Data Analysis using GPT-3
 
-![demo](images/demo.gif)
+![demo](Project/images/demo.gif)
 
 
 [Try it now](https://dash-gallery.plotly.host/dash-gpt3-lines/)
