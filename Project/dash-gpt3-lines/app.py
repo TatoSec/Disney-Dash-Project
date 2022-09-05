@@ -21,10 +21,9 @@ def Header(name, app):
     )
     return dbc.Row([dbc.Col(title, md=8), dbc.Col(logo, md=4)])
 
-#Imported Data from GCP Big Query into a spreadsheet and then read the data 
-# sheet_url = "https://docs.google.com/spreadsheets/d/1OQ-R1esPeo8vqCq5YsfPhgSP02SkVj57DYAhRzJQTjg/edit?usp=sharing"
-# url = sheet_url.replace('/edit#gid=', '/export?format=csv&gid=')
+# Imported Data 
 df = pd.read_csv('disney-dash-data.csv')
+
 
 # Authentication
 openai.api_key = os.getenv(api_token)
@@ -32,11 +31,13 @@ openai.api_key = api_token
 
 
 
-# Define the prompt
+# Define the prompt using OpenAI Codex
 prompt = """
 
+**Description**: The top Grossing Action Disney movies .
 
 **Code**: ```px.strip(df.query("genre == 'Action'"),x="genre",y="total_gross",color="_movie_title_",log_y=False,log_x=False, )```"""
+
 
 # Create
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
@@ -105,12 +106,13 @@ app.layout = dbc.Container(
 def generate_graph(n_clicks, n_submit, text, conversation):
     if n_clicks is None and n_submit is None:
         default_fig = px.strip(
-            df.query("genre == 'Action'"),
+            df.query("genre== 'Action'"),
             x="genre",
             y="total_gross",
             color="_movie_title_",
             log_y=False,
             log_x=False,
+            
         
         )
         return default_fig, dash.no_update, dash.no_update
@@ -143,7 +145,7 @@ def generate_graph(n_clicks, n_submit, text, conversation):
     try:
         fig = eval(output)
     except Exception as e:
-        fig = px.strip(title=f"Exception: {e}. Please try again!")
+        fig = px.strip(title=f"Sorry I didnt get that due to: {e}.try something else!")
 
     return fig, conversation, ""
 
