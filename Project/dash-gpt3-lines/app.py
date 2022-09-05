@@ -22,11 +22,7 @@ def Header(name, app):
     return dbc.Row([dbc.Col(title, md=8), dbc.Col(logo, md=4)])
 
 
-# Load data
-df = px.data.gapminder()
-
-# Uncomment when ready to lead csv data
-#df = pd.read_csv("disney_data.csv")
+df = pd.read_csv('disney_data.csv')
 
 # Authentication
 openai.api_key = os.getenv(api_token)
@@ -108,10 +104,10 @@ app.layout = dbc.Container(
 def generate_graph(n_clicks, n_submit, text, conversation):
     if n_clicks is None and n_submit is None:
         default_fig = px.line(
-            df.query("continent == 'Oceania'"),
-            x="year",
-            y="lifeExp",
-            color="country",
+            df.query("genre == 'Action'"),
+            x="genre",
+            y="total_gross",
+            color="_movie_title_",
             log_y=False,
             log_x=False,
         )
