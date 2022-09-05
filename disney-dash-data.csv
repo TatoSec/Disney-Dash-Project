@@ -1,0 +1,465 @@
+_movie_title_,total_gross,genre
+Star Wars Ep. VII: The Force Awakens,936662225,Adventure
+The Avengers,623279547,Action
+Rogue One: A Star Wars Story,529483936,Adventure
+Finding Dory,486295561,Adventure
+Avengers: Age of Ultron,459005868,Action
+Pirates of the Caribbean: Dead Man’…,423315812,Adventure
+The Lion King,422780140,Adventure
+Toy Story 3,415004880,Adventure
+Iron Man 3,408992272,Action
+Captain America: Civil War,408084349,Action
+Frozen,400738009,Adventure
+Finding Nemo,380529370,Adventure
+The Jungle Book,364001123,Adventure
+Inside Out,356461711,Adventure
+Zootopia,341268248,Adventure
+Alice in Wonderland,334191110,Adventure
+Guardians of the Galaxy,333172112,Adventure
+Pirates of the Caribbean: At World’…,309420425,Adventure
+Pirates of the Caribbean: The Curse o…,305411224,Adventure
+The Sixth Sense,293506292,Thriller/Suspense
+Up,293004164,Adventure
+"The Chronicles of Narnia: The Lion, t…",291710957,Adventure
+"Monsters, Inc.",289423425,Adventure
+Monsters University,268488329,Adventure
+The Incredibles,261441092,Adventure
+Captain America: The Winter Soldier,259746958,Action
+Moana,246082029,Adventure
+Toy Story 2,245852179,Adventure
+Cars,244082982,Comedy
+Maleficent,241407328,Adventure
+Pirates of the Caribbean: On Stranger…,241063875,Adventure
+Brave,237282182,Adventure
+Oz the Great and Powerful,234770996,Adventure
+Doctor Strange,232532923,Adventure
+Signs,227965690,Thriller/Suspense
+WALL-E,223808164,Adventure
+Big Hero 6,222527828,Adventure
+National Treasure 2: Book of Secrets,219961501,Adventure
+Beauty and the Beast,218951625,Musical
+Aladdin,217350219,Comedy
+Ratatouille,206445654,Comedy
+Thor: The Dark World,206362140,Adventure
+Armageddon,201578182,Adventure
+Cinderella,201151353,Drama
+Tangled,200821936,Adventure
+Pearl Harbor,198539855,Action
+Toy Story,191796233,Adventure
+Cars 2,191450875,Adventure
+Wreck-It Ralph,189412677,Adventure
+Snow White and the Seven Dwarfs,184925485,Musical
+Lincoln,182207973,Drama
+Ant-Man,180202163,Action
+Pretty Woman,178406268,Romantic Comedy
+National Treasure,173005002,Adventure
+Tron: Legacy,172062763,Adventure
+Tarzan,171091819,Adventure
+The Help,169705587,Drama
+Wild Hogs,168213584,Comedy
+3 Men and a Baby,167780960,Comedy
+The Proposal,163958031,Romantic Comedy
+A Bug's Life,162798565,Adventure
+The Waterboy,161491646,Comedy
+Who Framed Roger Rabbit?,154112492,Comedy
+101 Dalmatians,153000000,Comedy
+Lilo & Stitch,145771527,Adventure
+The Santa Clause,144833357,Comedy
+The Jungle Book,141843000,Musical
+The Chronicles of Narnia: Prince Caspian,141621490,Adventure
+Pocahontas,141579773,Adventure
+Sister Act,139605150,Comedy
+The Santa Clause 2,139225854,Comedy
+Disney's A Christmas Carol,137855863,Drama
+Dinosaur,137748063,Adventure
+Ransom,136492681,Action
+101 Dalmatians,136189294,Comedy
+Chicken Little,135386665,Adventure
+The Rock,134069511,Action
+Bringing Down the House,132675402,Comedy
+"Honey, I Shrunk the Kids",130724172,Adventure
+Into the Woods,128002372,Musical
+Enchanted,127706877,Romantic Comedy
+Sweet Home Alabama,127214072,Comedy
+Good Morning Vietnam,123922370,Comedy
+The Good Dinosaur,123087120,Adventure
+Mulan,120620254,Adventure
+G-Force,119436770,Adventure
+Remember the Titans,115654751,Drama
+The Village,114197520,Thriller/Suspense
+Bolt,114053759,Comedy
+The Pacifier,113006880,Comedy
+Enemy of the State,111549836,Action
+The Little Mermaid,111543479,Adventure
+Freaky Friday,110222438,Comedy
+Bedtime Stories,110101975,Comedy
+The Princess Diaries,108244774,Comedy
+George Of The Jungle,105263257,Comedy
+Phenomenon,104636382,Drama
+The Princess and the Frog,104400899,Adventure
+Dick Tracy,103738726,Action
+Gone in 60 Seconds,101643008,Action
+Con Air,101117573,Action
+The Hunchback of Notre Dame,100138851,Adventure
+Gnomeo and Juliet,99967670,Comedy
+Hercules,99112101,Adventure
+Meet the Robinsons,97822171,Adventure
+Inspector Gadget,97387965,Comedy
+Dead Poets Society,95860116,Drama
+The Princess Diaries 2: Royal Engagement,95149435,Romantic Comedy
+Unbreakable,94999143,Thriller/Suspense
+Beverly Hills Chihuahua,94514402,Comedy
+Lady and the Tramp,93600000,Drama
+Tomorrowland,93436322,Adventure
+Flubber,92993801,Comedy
+Crimson Tide,91387195,Action
+Prince of Persia: Sands of Time,90759676,Action
+The Game Plan,90648202,Comedy
+High School Musical 3: Senior Year,90559416,Musical
+Disney Planes,90282580,Comedy
+Flightplan,89706988,Thriller/Suspense
+Father of the Bride,89325780,Comedy
+The Lone Ranger,89302115,Western
+The Emperor's New Groove,89296573,Adventure
+The Muppets,88625922,Comedy
+The Hand That Rocks the Cradle,88036683,Thriller/Suspense
+Real Steel,85463309,Action
+Brother Bear,85336277,Adventure
+Cinderella,85000000,Drama
+Dangerous Minds,84919401,Drama
+The Santa Clause 3: The Escape Clause,84500122,Comedy
+Pinocchio,84300000,Adventure
+Atlantis: The Lost Empire,84052762,Adventure
+Fantasia,83320000,Musical
+Saving Mr. Banks,83299761,Drama
+Mr. Holland's Opus,82582604,Drama
+Bridge to Terabithia,82234139,Drama
+Eight Below,81612565,Adventure
+Snow Dogs,81150692,Comedy
+While You Were Sleeping,81057016,Romantic Comedy
+War Horse,79883359,Drama
+Hannah Montana the Movie,79576189,Drama
+Cocktail,78222753,Drama
+Alice Through the Looking Glass,77042381,Adventure
+Father of the Bride Part II,76578911,Comedy
+Pete’s Dragon,76233151,Adventure
+The Haunted Mansion,75817994,Comedy
+The Rookie,75600072,Drama
+The Horse Whisperer,75383563,Drama
+Ladder 49,74541707,Action
+"Six Days, Seven Nights",74339294,Romantic Comedy
+John Carter,73058679,Adventure
+Bridge of Spies,72313754,Thriller/Suspense
+Ruthless People,71624879,Comedy
+3 Men and a Little Lady,71609321,Comedy
+Turner & Hooch,71079915,Comedy
+The Kid,69688384,Comedy
+Cool Runnings,68856263,Comedy
+Holes,67383924,Drama
+Hidalgo,67286731,Western
+Race to Witch Mountain,67172594,Adventure
+"Alexander and the Terrible, Horrible,…",66954149,Comedy
+102 Dalmatians,66941559,Comedy
+The Parent Trap,66308518,Comedy
+Herbie: Fully Loaded,66010682,Comedy
+Stakeout,65673233,Comedy
+Deuce Bigalow: Male Gigolo,65535067,Comedy
+Step Up,65328121,Drama
+Hannah Montana/Miley Cyrus: Best of B…,65281781,Concert/Performance
+Song of the South,65000000,Adventure
+Miracle,64378093,Drama
+Déjà Vu,64038616,Thriller/Suspense
+Sky High,63939454,Adventure
+What About Bob?,63710000,Comedy
+The Sorcerer's Apprentice,63150991,Adventure
+The Last Song,62950384,Drama
+Splash,62599495,Comedy
+Down and Out in Beverly Hills,62134225,Comedy
+The Shaggy Dog,61123569,Comedy
+Mission to Mars,60874615,Adventure
+Coyote Ugly,60786269,Drama
+Fantasia 2000 (IMAX),60507228,Musical
+Shanghai Knights,60470220,Adventure
+Jungle 2 Jungle,59925026,Comedy
+Secretariat,59699513,Drama
+Planes: Fire and Rescue,59157732,Adventure
+Honey I Blew Up the Kid,58662452,Comedy
+Jack,58617334,Drama
+Open Range,58331254,Western
+Bicentennial Man,58220776,Drama
+Step Up 2 the Streets,58017783,Drama
+Invincible,57806952,Drama
+Sister Act 2 Back in the Habit,57319029,Comedy
+Beaches,57041866,Drama
+Shanghai Noon,56932305,Western
+A Civil Action,56709981,Drama
+Tombstone,56505065,Western
+The Aristocats,55675257,Musical
+The BFG,55483770,Adventure
+I am Number Four,55100437,Adventure
+The Guardian,55011732,Action
+The Hundred-Foot Journey,54235441,Romantic Comedy
+The Count of Monte Cristo,54228104,Drama
+The Three Musketeers,53661805,Adventure
+Arachnophobia,53208180,Thriller/Suspense
+The Prestige,53089891,Thriller/Suspense
+Outrageous Fortune,52864741,Comedy
+The Recruit,52784696,Thriller/Suspense
+The Royal Tenenbaums,52353636,Black Comedy
+The Color of Money,52293000,Drama
+King Arthur,51877963,Adventure
+The Odd Life of Timothy Green,51853450,Drama
+Muppets Most Wanted,51178893,Comedy
+Up Close & Personal,51045801,Drama
+The Hitchhiker's Guide to the Galaxy,51019112,Comedy
+Apocalypto,50866635,Adventure
+The Mighty Ducks,50752337,Comedy
+Mighty Joe Young,50632037,Adventure
+The Nightmare Before Christmas,50408318,Musical
+Angels in the Outfield,50236831,Comedy
+Evita,50047179,Musical
+Home on the Range,50026353,Comedy
+When a Man Loves a Woman,50021959,Drama
+Oliver & Company,49576671,Adventure
+Old Dogs,49492060,Comedy
+The Rescuers,48775599,Adventure
+Peter Pan: Return to Neverland,48430258,Adventure
+G.I. Jane,48169156,Drama
+The Preacher's Wife,48102795,Drama
+The Jungle Book 2,47901582,Adventure
+Dan in Real Life,47642963,Romantic Comedy
+The Rocketeer,46573027,Action
+The Distinguished Gentleman,46434570,Comedy
+College Road Trip,45610425,Comedy
+D2: The Mighty Ducks,45604206,Comedy
+The Tigger Movie,45542421,Adventure
+"O Brother, Where Art Thou?",45506619,Comedy
+Medicine Man,44948240,Drama
+"McFarland, USA",44480275,Drama
+Nothing To Lose,44480039,Comedy
+The Jungle Book,44342956,Adventure
+Confessions of a Shopaholic,44277350,Romantic Comedy
+The Fox and the Hound,43899231,Comedy
+Underdog,43760605,Adventure
+Under the Tuscan Sun,43601508,Comedy
+Need for Speed,43568507,Action
+Reign of Fire,43061982,Action
+The Lizzie McGuire Movie,42734455,Comedy
+Glory Road,42647449,Drama
+Step Up 3D,42400223,Drama
+Homeward Bound: The Incredible Journey,41833324,Adventure
+Three Fugitives,40590000,Comedy
+Big Business,40150487,Comedy
+Encino Man,40057130,Comedy
+Man of the House,40029009,Comedy
+The Ladykillers,39692139,Comedy
+Hocus Pocus,39360491,Comedy
+What's Love Got to Do With It,39100956,Drama
+Surrogates,38577772,Action
+Ten Things I Hate About You,38177966,Romantic Comedy
+Jonas Brothers: The 3D Concert Experi…,38174685,Concert/Performance
+Treasure Planet,38120554,Adventure
+The Doctor,37497480,Drama
+Raising Helen,37485528,Comedy
+The Wild,37384046,Adventure
+Keeping the Faith,37036404,Romantic Comedy
+My Favorite Martian,36850101,Comedy
+Recess: School's Out,36696761,Comedy
+Million Dollar Arm,36447959,Drama
+Alive,36299670,Adventure
+The Black Hole,35841901,""
+A Goofy Movie,35336439,Comedy
+Frankenweenie,35287788,Comedy
+The Hot Chick,35081550,Comedy
+White Fang,34729091,Adventure
+Judge Dredd,34687912,Action
+Muppet Treasure Island,34327391,Adventure
+Instinct,34105207,Drama
+Adventures in Babysitting,33790923,Comedy
+The Joy Luck Club,32790064,Drama
+Homeward Bound II: Lost in San Franc…,32709423,Adventure
+The 13th Warrior,32698899,Action
+When in Rome,32680633,Romantic Comedy
+Metro,32017895,Action
+Earth,32011576,Documentary
+The Apple Dumpling Gang,31916500,Comedy
+Can't Buy Me Love,31623833,Romantic Comedy
+Eddie,31369401,Comedy
+Calendar Girls,31011616,Comedy
+Powder,30833914,Drama
+I Love Trouble,30806194,Romantic Comedy
+Toy Story 3D Double Feature,30702446,Adventure
+Delivery Man,30659817,Comedy
+Blank Check,30573770,Comedy
+Bad Company,30157016,Action
+Double Take,29823162,Action
+Green Card,29804169,Romantic Comedy
+Confessions of a Teenage Drama Queen,29331068,Comedy
+A Low Down Dirty Shame,29317886,Action
+Shoot to Kill,29300000,Action
+Romy and Michele's High School Reunion,29235353,Comedy
+3 Ninjas,29028000,Action
+Chimpanzee,28965459,Documentary
+The Insider,28965197,Drama
+James and the Giant Peach,28921264,Adventure
+In the Army Now,28881266,Comedy
+Deceived,28738096,Thriller/Suspense
+Ernest Saves Christmas,28202109,Comedy
+"20,000 Leagues Under the Sea",28200000,Adventure
+Grosse Pointe Blank,28084357,Black Comedy
+Herbie Goes to Monte Carlo,28000000,""
+The Rescuers Down Under,27931461,Adventure
+The Other Sister,27807627,Romantic Comedy
+Never Cry Wolf,27668764,Drama
+The Finest Hours,27569558,Thriller/Suspense
+The Muppet Christmas Carol,27281507,Comedy
+High Fidelity,27277055,Comedy
+Spy Hard,26936265,Comedy
+Tron,26918576,Action
+Stick It,26910736,Comedy
+Winnie the Pooh,26692846,Adventure
+An American Werewolf in Paris,26570463,Horror
+First Kid,26465920,Comedy
+Houseguest,26325256,Comedy
+Son in Law,25989889,Comedy
+Freaky Friday,25942000,Comedy
+You Again,25702053,Comedy
+Beauty and the Beast (IMAX),25487028,Musical
+Dark Water,25473093,Thriller/Suspense
+Tin Men,25411386,Comedy
+The Absent Minded Professor,25381407,Comedy
+Ernest Goes to Jail,25029569,Comedy
+Quiz Show,24787282,Drama
+Tim Burton's The Nightmare Before Chr…,24732041,Musical
+Operation Dumbo Drop,24670346,Adventure
+Air Bud,24646936,Comedy
+Ice Princess,24381334,Comedy
+Renaissance Man,24172899,Comedy
+Dead Presidents,24120194,Drama
+The Adventures of Huck Finn,24103594,Adventure
+The Life Aquatic with Steve Zissou,24006726,Comedy
+Around the World in 80 Days,24004159,Adventure
+Corky Romano,23978402,Comedy
+Tom and Huck,23837227,Adventure
+The Great Mouse Detective,23605534,Adventure
+Oscar,23562716,Comedy
+Ernest Goes to Camp,23509382,Comedy
+Piglet's Big Movie,23103423,Comedy
+Stay Alive,23086480,Horror
+The Program,23042200,Action
+D3: The Mighty Ducks,22936273,Comedy
+Beloved,22852487,Drama
+Guilty as Sin,22622537,Thriller/Suspense
+Captain Ron,22518097,Comedy
+The Alamo,22406362,Western
+The Sword in the Stone,22182353,Adventure
+Boys,21930418,Drama
+A Lot Like Love,21835784,Comedy
+Mr. 3000,21800302,Comedy
+Consenting Adults,21591728,Drama
+He Got Game,21567853,Drama
+Blackbeard's Ghost,21540050,Comedy
+Tough Guys,21458229,Comedy
+Mr. Magoo,21437192,Comedy
+Mars Needs Moms,21392758,Adventure
+Cold Creek Manor,21384035,Thriller/Suspense
+The Black Cauldron,21288692,Adventure
+Straight Talk,21202099,Comedy
+Super Mario Bros.,20844907,Action
+The Air Up There,20782439,Comedy
+Iron Will,20623071,Drama
+The Invisible,20568319,Thriller/Suspense
+Hello Again,20419446,Comedy
+Another Stakeout,20107504,Comedy
+Stella,20062347,Drama
+Taking Care of Business,20005435,Comedy
+Jane Austen's Mafia,19843795,Comedy
+Color of Night,19750470,Thriller/Suspense
+Gone Fishin',19745922,Comedy
+Betsy's Wedding,19740070,Comedy
+Valiant,19478106,Adventure
+Oceans,19422319,Documentary
+Doug's 1st Movie,19421271,Adventure
+An Innocent Man,19397847,Drama
+Summer of Sam,19288130,Drama
+The Secret World of Arietty,19192510,Adventure
+Tuck Everlasting,19161999,Drama
+Blaze,19049727,Drama
+Kazaam,18880508,Comedy
+Paradise,18634643,Drama
+The Boatniks,18607492,Comedy
+Flight of the Navigator,18564613,Adventure
+That Darn Cat,18301828,Comedy
+Fright Night,18298649,Horror
+Simon Birch,18253415,Drama
+Pooh's Heffalump Movie,18098433,Adventure
+DuckTales: The Movie - Treasure of th…,18075331,Adventure
+Bedknobs and Broomsticks,17871174,Musical
+Bears,17780194,Documentary
+Born Yesterday,17760754,Romantic Comedy
+The Big Green,17736619,Comedy
+Heavy Weights,17671310,Comedy
+Max Keeble's Big Move,17292381,Comedy
+Annapolis,17127992,Drama
+Rushmore,17105219,Black Comedy
+Ghosts of the Abyss,17093668,Documentary
+The Country Bears,16988996,Adventure
+crazy/beautiful,16929123,Drama
+Terminal Velocity,16478900,Action
+Monkey Kingdom,16432322,Documentary
+Swing Vote,16289867,Comedy
+The Devil and Max Devlin,16000000,""
+Billy Bathgate,15565363,Drama
+Rocket Man,15448043,Comedy
+Mad Love,15446532,Drama
+African Cats,15428747,Documentary
+Mr. Destiny,15379253,Comedy
+The Greatest Game Ever Played,15331289,Drama
+Benji the Hunted,15212539,Adventure
+Gake no ue no Ponyo,15090399,Adventure
+Haakon Haakonsen,15024232,Adventure
+Spaced Invaders,15000000,Comedy
+The Sixth Man,14765099,Comedy
+Fire Birds,14760451,Action
+Indian Summer,14717851,Comedy
+Baby: Secret of the Lost Legend,14276095,Adventure
+Ernest Scared Stupid,14143280,Comedy
+Out Cold,13906394,Comedy
+Return to Snowy River,13687027,Adventure
+Nixon,13668249,Drama
+A Kid in King Arthur's Court,13406717,Adventure
+One Magic Christmas,13229514,Drama
+25th Hour,13084595,Drama
+The Crew,13019253,Comedy
+A Far Off Place,12890752,Adventure
+Mr. Wrong,12805071,Romantic Comedy
+The Associate,12772657,Comedy
+D.O.A.,12706478,Thriller/Suspense
+The Light Between Oceans,12545979,Drama
+The Marrying Man,12454768,Romantic Comedy
+People Like Us,12431792,Drama
+Strange Magic,12429583,Adventure
+Life With Mikey,12349549,Comedy
+A Stranger Among Us,12282994,Drama
+I'll Be Home For Christmas,12214338,Comedy
+Roommates,12076989,Comedy
+Holy Man,12069719,Comedy
+3 Ninjas Kick Back,11744960,Action
+Gross Anatomy,11346186,Drama
+The Ref,11325885,Comedy
+Casanova,11304403,Drama
+One Good Cop,11276846,Action
+Deep Rising,11203026,Action
+The Last Flight of Noah’s Ark,11000000,""
+New York Stories,10763469,Drama
+Return to Oz,10618813,Adventure
+Primeval,10597734,Adventure
+Camp Nowhere,10442641,Comedy
+Roving Mars,10407978,Documentary
+The Scarlet Letter,10359006,Drama
+Shopgirl,10284523,Drama
+White Squall,10229300,Adventure
+Babes in Toyland,10218316,Musical
+Sorority Boys,10198766,Comedy
+Prom,10130219,Comedy
+Sen to Chihiro no Kamikakushi,10049886,Adventure

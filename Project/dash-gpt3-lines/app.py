@@ -21,8 +21,10 @@ def Header(name, app):
     )
     return dbc.Row([dbc.Col(title, md=8), dbc.Col(logo, md=4)])
 
-
-df = pd.read_csv('disney_data.csv')
+#Imported Data from GCP Big Query into a spreadsheet and then read the data 
+# sheet_url = "https://docs.google.com/spreadsheets/d/1OQ-R1esPeo8vqCq5YsfPhgSP02SkVj57DYAhRzJQTjg/edit?usp=sharing"
+# url = sheet_url.replace('/edit#gid=', '/export?format=csv&gid=')
+df = pd.read_csv('disney-dash-data.csv')
 
 # Authentication
 openai.api_key = os.getenv(api_token)
@@ -34,8 +36,7 @@ openai.api_key = api_token
 prompt = """
 
 
-**Code**: ```px.line(df.query("continent == 'Oceania'"), x='year', y='lifeExp', color='country', log_y=False, log_x=False)```
-"""
+**Code**: ```px.strip(df.query("genre == 'Action'"),x="total_gross",y="genre",color="_movie_title_",log_y=False,log_x=False, )```"""
 
 # Create
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
@@ -56,20 +57,20 @@ chat_input = dbc.InputGroup(
 )
 output_graph = [
     dbc.CardHeader("Disney Data Graph [Domestic Only]"),
-    dbc.CardBody(dbc.Spinner(dcc.Graph(id="output-graph", style={"height": "425px"}))),
+    dbc.CardBody(dbc.Spinner(dcc.Graph(id="output-graph", style={"height": "500px"}))),
 ]
 output_code = [
     dbc.CardHeader("Conversation Interface"),
     dbc.CardBody(
         dbc.Spinner(dcc.Markdown("", id="conversation-interface")),
-        style={"height": "725px"},
+        style={"height": "800px"},
     ),
 ]
 
 explanation = f"""
 *GPT-3 can generate Plotly graphs from a simple description of what you want, and it
 can even modify what you have previously generated!
-We only needed to load the DisneyData.csv dataset and give the following prompt to GPT-3:*
+We only needed to load the Disney-Dash-Data.csv dataset and give the following prompt to GPT-3:*
 
 {prompt}
 """
@@ -103,10 +104,10 @@ app.layout = dbc.Container(
 )
 def generate_graph(n_clicks, n_submit, text, conversation):
     if n_clicks is None and n_submit is None:
-        default_fig = px.line(
+        default_fig = px.strip(
             df.query("genre == 'Action'"),
-            x="genre",
-            y="total_gross",
+            x="total_gross",
+            y="genre",
             color="_movie_title_",
             log_y=False,
             log_x=False,
@@ -141,7 +142,7 @@ def generate_graph(n_clicks, n_submit, text, conversation):
     try:
         fig = eval(output)
     except Exception as e:
-        fig = px.line(title=f"Exception: {e}. Please try again!")
+        fig = px.strip(title=f"Exception: {e}. Please try again!")
 
     return fig, conversation, ""
 
