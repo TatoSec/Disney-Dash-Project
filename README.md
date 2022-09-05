@@ -1,4 +1,4 @@
-# Dash GPT-3 Line Chart
+# Disney Movie Grossing Data Analysis using GPT-3
 
 ![demo](images/demo.gif)
 
