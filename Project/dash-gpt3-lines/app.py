@@ -36,7 +36,7 @@ openai.api_key = api_token
 prompt = """
 
 
-**Code**: ```px.strip(df.query("genre == 'Action'"),x="total_gross",y="genre",color="_movie_title_",log_y=False,log_x=False, )```"""
+**Code**: ```px.strip(df.query("genre == 'Action'"),x="genre",y="total_gross",color="_movie_title_",log_y=False,log_x=False, )```"""
 
 # Create
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
@@ -106,11 +106,12 @@ def generate_graph(n_clicks, n_submit, text, conversation):
     if n_clicks is None and n_submit is None:
         default_fig = px.strip(
             df.query("genre == 'Action'"),
-            x="total_gross",
-            y="genre",
+            x="genre",
+            y="total_gross",
             color="_movie_title_",
             log_y=False,
             log_x=False,
+        
         )
         return default_fig, dash.no_update, dash.no_update
 
