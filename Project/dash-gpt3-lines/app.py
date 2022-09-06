@@ -32,7 +32,7 @@ openai.api_key = api_token
 
 
 # Define the prompt using OpenAI Codex
-prompt = """
+prompt = """ asdwa
 
 **Description**: The top Grossing Action Disney movies .
 
@@ -48,7 +48,7 @@ content_style = {"height": "475px"}
 chat_input = dbc.InputGroup(
     [
         dbc.Input(
-            id="input-text", placeholder="What Disney movie data may I provide ?"
+            id="input-text", placeholder="Ask me anything about genres ?"
         ),
         dbc.InputGroupAddon(
             dbc.Button("Submit", id="button-submit", color="primary"),
@@ -106,7 +106,7 @@ app.layout = dbc.Container(
 def generate_graph(n_clicks, n_submit, text, conversation):
     if n_clicks is None and n_submit is None:
         default_fig = px.strip(
-            df.query("genre== 'Action'"),
+            df.query("genre == 'Action'"),
             x="genre",
             y="total_gross",
             color="_movie_title_",

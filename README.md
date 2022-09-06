@@ -1,26 +1,25 @@
-# Disney Movie Grossing Data Analysis using GPT-3
-
-![demo](Project/images/demo.gif)
+# Disney Move Data Analysis with GPT-3
 
 
-[Try it now](https://dash-gallery.plotly.host/dash-gpt3-lines/)
+[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
+
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+
+>This demos shows how to use GPT-3 to not only generate strip charts using a given dataset (in this case, the disney-dash-data.csv dataset), but also update it in real time with only natural language queries:.
 
 
-This demos shows how to use GPT-3 to not only generate line charts using a given dataset (in this case, the [Gapminder dataset](https://plotly.com/python/plotly-express/)), but also update it in real time with only natural language queries:
+## Features
 
-![snippet](images/snippet.png)
+- Extracts data from disney-dash-data.csv
+- Plotly creates graphs to visualize data
+- GPT-3 uses davinci engine to respond in natural language and provide data
 
-It only took one Plotly Express code snippet (given in the card on the bottom left) for it to learn how to generate line charts.
+![Alt Text](https://media.giphy.com/media/XVlgfsCa4uyGC96OzS/giphy.gif)
 
-For a smoother demo, [watch the video here](https://youtu.be/baAXmxcyZo4).
+
 
 ## OpenAI GPT-3 API Access
-
-In order to obtain access to the GPT-3 API, you will need to [join the waitlist](https://beta.openai.com/). Once you have the API,  you can find the secret key in [the quickstart](https://beta.openai.com/developer-quickstart), and export it as an environment variable:
-```
-export OPENAI_KEY="xxxxxxxxxxx"
-```
-Where "xxxxxxxxxxx" corresponds to your secret key.
+>To receive and API-Key from OpenAI all you need to do is navigate to https://openai.com/api/ and create and account then hover over your profile on the top right of the page and click the view API Keys tab copy your key and past it in your code remember to create a variable and then call upon it otherwise it wont work
 
 ## Instructions
 
@@ -56,11 +55,11 @@ python app.py
 and visit http://127.0.0.1:8050/.
 
 
-## Discussions
 
-If you are interested in chatting with us about the technical aspect of this, or would like to share the Dash apps you created with your own OpenAI API tokens, [join the discussion thread](https://community.plotly.com/t/automatically-generate-plotly-charts-using-gpt-3/42826).
+## License
+
+MIT
 
 
-## GPT-3 for Enterprises
 
-If you are interested to use Dash and GPT-3 in an enterprise setting, please [reach out](https://plotly.com/contact-us/), and we'd be happy to discuss how we can help with [Dash Enterprise](https://plotly.com/dash/).
+
